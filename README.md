@@ -14,10 +14,12 @@ For study LSTM
 - opencv 4.2.0
 
 # Python lib
-- dill ( $ conda install dill )
-- sklearn(scikit-learn) ( $ conda install scikit-learn )
-- nltk ( $ conda install nltk ) Notice : You have to move nltk_data file into this directory after install nltk.
-- torchtext ( $ pip install torchtext==0.8.1 ) Nature language data process package, provided by 'pytorch', If version>0.8.1 there must be import error, torchtext.data.Field.
+...
+conda install dill # dill
+conda install scikit-learn # sklearn(scikit-learn)
+conda install nltk # nltk, Notice : You have to move nltk_data file into this directory after install nltk.
+pip install torchtext==0.8.1 # torchtext, Nature language data process package, provided by 'pytorch', If version>0.8.1 there must be import error, torchtext.data.Field.
+...
 
 
 # Reference
